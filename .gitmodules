@@ -1,0 +1,3 @@
+[submodule "card-flip"]
+	path = card-flip
+	url = https://github.com/yyaa419/artEngine.git
