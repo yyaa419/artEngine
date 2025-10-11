@@ -58,6 +58,6 @@ def trigger_9():
     socketio.emit('trigger', {'message': 9})
     return 'trigger 9'
 
-# 启动服务（监听所有网卡）
+# 启动服务
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=5000)
